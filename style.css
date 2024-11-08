@@ -41,7 +41,6 @@ h1 {
 }
 
 .poem p::first-line {
-    font-weight: bold;
     color: #e85a4f;
 }
 
@@ -62,7 +61,7 @@ h1 {
 
 .container::before,
 .container::after {
-    content: "?";
+    content: "";
     font-size: 3em;
     color: #e85a4f;
     position: absolute;
@@ -73,7 +72,7 @@ h1 {
 }
 
 .container::after {
-    content: "?";
+    content: "";
     left: 20px;
     right: auto;
     top: auto;
